@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#ffe082;
+}
+
+
+.div_principal{
+background-color: aliceblue;
+margin: auto;
+max-width: 400px;
+width: 50%;
+text-align: center;
+margin-top: 10%;
+padding-bottom: 2%;
+border: 1.5px solid black;
+border-radius: 20px;
+box-shadow: 8px 8px 1.5px black;
+}
+
+.div_principal > img{
+    width: 88%;
+    max-width: 88%;
+    margin: 5% 2% 0 3.5%;
+    border-radius: 12px;
+    display: flexbox;
+   
+
+        
+    
+   
+ 
+}
+
+.div_btn{
+    display:flex;
+   align-items: start;
+    background-color:#ffda6c ;
+    width: 25%;
+    margin: 3% 0 2% 8% ;
+    border-radius: 4.5px;
+    font-weight: bold;
+    padding: 1%;
+    box-shadow: 1.1px 1.1px 1px black;
+    
+
+}
+
+
+.div_texto{
+    padding-left: 8%;
+    text-align: start;
+}
+
+.div_texto > p{
+    font-weight: bold ;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin-bottom: 1.5%;
+}
+
+.text_description{
+    color: rgba(128, 128, 128, 0.863);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div_Avatar{
+    display: flex;
+    align-items: center;
+
+}
+
+.div_Avatar > p{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.div_Avatar > img {
+    max-width: 10%;
+margin: 2% 5% 2% 7% ;
+
+}
+
+
+.attribution { 
+    font-size: 16.5px; 
+    text-align: center;
+    margin-top: 7%;
+    font-weight: bolder;
+}
+.attribution a { 
+    color: hsla(118, 57%, 46%, 0.925); 
+    text-decoration: none;
+}
